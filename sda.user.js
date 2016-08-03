@@ -12,7 +12,8 @@
 
 // @version 0.1
 // @resource sdaCss sda.css?version=0.1
-// @resource sdaLess sda.less?version=0.1
+// @resource sdaLess sda.less?version=0.
+// @resource test solarized_site.css?version=0.1
 
 // @require  https://cdnjs.cloudflare.com/ajax/libs/less.js/2.7.1/less.min.js
 
@@ -38,7 +39,7 @@ try {
       }
     };
 
-    document.getElementsByTagName('body')[0].className += ' sda';
+    document.getElementsByTagName('html')[0].className += ' sda';
     loadExternalCss();
     console.log('sda end');
 

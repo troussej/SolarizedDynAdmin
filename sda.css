@@ -1,4 +1,4 @@
-body.sda {
+.sda body {
   font-family: arial, sans-serif;
   background-color: #fdf6e3;
   color: #657b83;
@@ -13,8 +13,9 @@ body.sda {
   border-style: none;
 }
 .sda th {
-  background-color: #eee8d5;
-  border-style: none;
+  background-color: #93a1a1;
+  color: #fdf6e3;
+  border: 1px solid #073642;
 }
 .sda tr.odd td {
   background-color: #eee8d5;
@@ -23,9 +24,17 @@ body.sda {
   color: #268bd2;
 }
 .sda div#oracleATGbrand {
-  color: #7B7B7B;
   font: 17px/33px Arial, Sans-Serif;
   height: 33px;
   padding-left: 135px;
-  background: url('/dyn/admin/atg/dynamo/admin/images/oracle.png') no-repeat left top;
+  background: #fdf6e3;
+}
+.sda input[type="text"],
+.sda select,
+.sda option,
+.sda textarea {
+  background-color: #fdf6e3;
+}
+.sda .CodeMirror-scroll {
+  background-color: #fdf6e3;
 }
